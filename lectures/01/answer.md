@@ -23,7 +23,7 @@ LoRAは、AIのカスタマイズ性を爆発的に高めた**「AI界の革命�
 - やったこと：app/ask.py を改修し、会話履歴を保ったまま続けて質問できるようにする
 - 結果：
 
-<div style="border: 2px solid #fcfcfc; padding: 10px; background-color: #000000; width: 400px; margin: 0 auto;">
+<div style="border: 2px solid #000000; padding: 10px; background-color: #ffffff; width: 90%; margin: 0 auto;">
 $ uv run python -m app.ask --interactive "LoRAとは何ですか？"
 [model] gemini-3.5-flash-lite
 [質問] LoRAとは何ですか？
