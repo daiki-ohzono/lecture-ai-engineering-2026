@@ -92,6 +92,7 @@ def make_quiz(lecture: int) -> str:
 
     # 2. 1つ選ぶ（random.choice）
     import random
+    random.seed()
     term = random.choice(terms)
 
     # 3. 問題文と答えを文字列で返す（json.dumps など）
